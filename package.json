@@ -1,0 +1,24 @@
+{
+  "name": "subspace-directory4",
+  "version": "1.0.0",
+  "description": "A node.js based subspace directory server",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kshade2001/subspace-directory-3.git"
+  },
+  "keywords": [
+    "subspace",
+    "continuum",
+    "warbird"
+  ],
+  "author": "Kingsley Masters <kingsley@flabbyfish.co.uk>",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/kshade2001/subspace-directory-3/issues"
+  },
+  "homepage": "https://github.com/kshade2001/subspace-directory-3"
+}

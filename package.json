@@ -4,7 +4,7 @@
   "description": "A node.js based subspace directory server",
   "main": "server.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/kshade2001/subspace-directory-3/issues"
   },
-  "homepage": "https://github.com/kshade2001/subspace-directory-3"
+  "homepage": "https://github.com/kshade2001/subspace-directory-3",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "BigInt": "^5.5.3",
+    "app-module-path": "^1.0.2",
+    "big-integer": "^1.5.3",
+    "int64-native": "^0.3.2"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "subspace-directory4",
+  "name": "subspace-directory",
   "version": "1.0.0",
   "description": "A node.js based subspace directory server",
   "main": "server.js",
@@ -23,9 +23,10 @@
   "homepage": "https://github.com/kshade2001/subspace-directory-3",
   "devDependencies": {
     "chai": "^3.0.0",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "proxyquire": "^1.6.0"
   },
   "dependencies": {
-    "big-integer": "^1.5.3",
+    "big-integer": "^1.5.3"
   }
 }

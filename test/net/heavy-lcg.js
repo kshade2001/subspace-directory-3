@@ -2,8 +2,10 @@ var expect = require('chai').expect;
 var HeavyLcg = require("net/heavy-lcg");
 
 describe('Subspace Heavy LCG', function() {
-    beforeEach(function() {
-        
+    it('Updates the seed when seed() is called', function() {
+       var heavy = new HeavyLcg();
+       heavy.seed(12345);
+       expect(heavy._seed.valueOf()).to.equal(12345);
     });
     describe('For a seed of 0',  function() {
         var heavy = new HeavyLcg();
